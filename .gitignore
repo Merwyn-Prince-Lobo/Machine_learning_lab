@@ -1,16 +1,19 @@
-# Python virtual environment
+# Python virtual environments
 .venv/
+venv/
+env/
 
 # Python cache
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Environment variables
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
 .env
 
-# VS Code
-.vscode/
-
-# macOS/Linux
+# OS files
 .DS_Store
-
+Thumbs.db
